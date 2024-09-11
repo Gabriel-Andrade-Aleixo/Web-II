@@ -4,25 +4,8 @@ module.exports = {
 }
 
 
-const alunos =  
-[
-        {
-            id: 1,
-            nome: 'Fulano Silva',
-            idade: 27
-        },
-        {
-            id: 2,
-            nome: 'Ciclano Almeida',
-            idade: 32
-        },
-        {
-            id: 7,
-            nome: 'José de Assis',
-            idade: 97
-        }
-
-]
+const alunos = require("../dados.json");
+console.log(alunos);
 
 function getByIdAlunos(p_codigo, retorno){
     console.log("Pesquisando o aluno" + p_codigo + "no Vetor de Alunos!");
