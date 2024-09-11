@@ -1,8 +1,8 @@
 const express = require('express');
 const app = express();
 
-const aluno = require('./routes/alunosRoutes');
-const index = require('./routes/indexRoutes');
+const aluno = require('./api/routes/alunosRoutes');
+const index = require('./api/routes/indexRoutes');
 
 app.use(express.json())
 

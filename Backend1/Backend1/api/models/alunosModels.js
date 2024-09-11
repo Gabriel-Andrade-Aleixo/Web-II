@@ -4,7 +4,7 @@ module.exports = {
 }
 
 
-const alunos = require("../dados.json");
+const alunos = require("../../dados.json");
 console.log(alunos);
 
 function getByIdAlunos(p_codigo, retorno){

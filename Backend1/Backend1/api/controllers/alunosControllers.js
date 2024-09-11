@@ -9,7 +9,7 @@ getCod,
 getId,
 }
 
-const alunos = require("../dados.json");
+const alunos = require("../../dados.json");
 console.log(alunos);
 
 function getAll(req, res) {
